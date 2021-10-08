@@ -1,0 +1,517 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Mobile */
+@media only screen and (max-width: 400px) {
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+}
+
+/* Tablette */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+}
+
+
+/* ------------HEADER------------ */
+/* ------------HEADER------------ */
+/* ------------HEADER------------ */
+/* ------------HEADER------------ */
+/* ------------HEADER------------ */
+/* ------------HEADER------------ */
+
+
+header {
+  background: #DD5555;
+  height: 52px;
+  font-size: 14px;
+  display: flex;
+  padding-left: 20%;
+}
+
+.logo {
+  padding-top: 10px;
+  }
+
+.headlist {
+  display: flex;
+}
+
+.headlist li {
+  list-style-type: none;
+
+}
+
+.headlist a {
+  display:block;              
+  min-width: 89px; 
+  min-height: 52px;   
+  text-align: center; 
+  padding-top: 15px;
+}
+
+a.liste-header:link {
+  text-decoration: none;
+  color: white;
+}
+
+a.liste-header:visited {
+  color: white;
+}
+
+a.liste-header:hover {
+  background-color: black;
+  opacity: 0.25;
+}
+
+
+
+/* ------------ACCROCHE-------------- */
+/* ------------ACCROCHE-------------- */
+/* ------------ACCROCHE-------------- */
+/* ------------ACCROCHE-------------- */
+/* ------------ACCROCHE-------------- */
+/* ------------ACCROCHE-------------- */
+
+
+
+.accroche {
+  background-image: url(images/about.jpg.png);
+  height: 658px;
+  padding-top: 220px;
+}
+
+h1 {
+text-align: center;
+color: white;
+font-size: 48px;
+font-weight: 700;
+}
+
+.soustitre {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  padding-bottom: 27px;
+  padding-top: 5px;
+}
+
+ hr {
+  margin: auto;
+  width: 400px;
+ }
+
+ /* Boutons */
+
+.listeaccroche {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.button-pouce {
+  width: 112px;
+  height: 46px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+}
+
+.button-pouce:hover {
+  background-color: grey;
+  color: white;
+}
+
+.button-coeur {
+  width: 112px;
+  height: 46px;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border: none;
+  font-size: 18px;
+}
+
+.button-coeur:hover {
+  background-color: grey;
+  color: white;
+}
+
+.button-panier {
+  width: 112px;
+  height: 46px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+}
+
+.button-panier:hover {
+  background-color: grey;
+  color: white;
+}
+
+a.buttonaccroche {
+  text-decoration: none;
+  color: black;
+}
+
+a.buttonaccroche:visited {
+  text-decoration: none;
+  color: black;
+}
+
+
+/* ------------PRESENTATION-------------- */
+/* ------------PRESENTATION-------------- */
+/* ------------PRESENTATION-------------- */
+/* ------------PRESENTATION-------------- */
+/* ------------PRESENTATION-------------- */
+/* ------------PRESENTATION-------------- */
+
+
+h2{
+  text-align: center;
+  color: black;
+  font-size: 36px;
+  font-weight:600;
+}
+
+.h2presentation {
+  margin-top: 52px;
+  margin-bottom: 32px;
+}
+
+.presentation {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 52px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.description {
+  width: 358px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h3 {
+  color: black;
+  font-size: 28px;
+  font-weight:600;
+  margin-top: 10px;
+}
+
+.para-descriptition {
+  color: black;
+  font-size: 16px;
+  font-weight:400;
+  margin-top: 10px;
+}
+
+.picto1 {
+  background-color: #DD5555;
+  background-image: url(images/fork-and-knife-silhouette.svg);
+  border-radius: 100px;
+  width: 120px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 120px;
+}
+.picto2 {
+  background-color: #DD5555;
+  background-image: url(images/bed.svg);
+  border-radius: 100px;
+  width: 120px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 120px;
+}
+
+.picto3 {
+  background-color: #DD5555;
+  background-image: url(images/fire-symbol.svg);
+  border-radius: 100px;
+  width: 120px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 120px;
+}
+
+.picto4 {
+  background-color: #DD5555;
+  background-image: url(images/plant-leaf-with-white-details.svg);
+  border-radius: 100px;
+  width: 120px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 120px;
+}
+
+.picto5 {
+  background-color: #DD5555;
+  background-image: url(images/umbrella-black-silhouette.svg);
+  border-radius: 100px;
+  width: 120px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 120px;
+}
+
+.picto6 {
+  background-color: #DD5555;
+  background-image: url(images/dollar-symbol.svg);
+  border-radius: 100px;
+  width: 120px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 120px;
+}
+
+
+/* ------------EQUIPE-------------- */
+/* ------------EQUIPE-------------- */
+/* ------------EQUIPE-------------- */
+/* ------------EQUIPE-------------- */
+/* ------------EQUIPE-------------- */
+/* ------------EQUIPE-------------- */
+
+
+
+.equipe {
+  background-image: url(images/team.jpg.png);
+  height: 240px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.super-equipe {
+  text-align: center;
+  padding: 82px;
+}
+
+/* ------------photos equipe-------------- */
+
+.textAlign {
+  background-image: url(images/avaone.jpg.png);
+  border-radius: 100%;
+  width: 239px;
+  height: 239px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.margeInn {
+  background-image: url(images/avatwo.jpg.png);
+  border-radius: 100%;
+  width: 239px;
+  height: 239px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.isaacNewton {
+  background-image: url(images/avathree.jpg.png);
+  border-radius: 100%;
+  width: 239px;
+  height: 239px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.ashTehemel {
+  background-image: url(images/avafour.jpg.png);
+  border-radius: 100%;
+  width: 239px;
+  height: 239px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.pres_equipe {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ------------colonnes-------------- */
+
+.membre {
+  width: 239px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+}
+
+/* ------------boutonnnnn-------------- */
+
+.button-envelope {
+  width: 132px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  background-color: #DD5555;
+  margin-top: 20px;
+}
+
+.button-envelope:hover {
+  background-color:black;
+  opacity: 0.5;
+}
+
+.button-envelope:link {
+  text-decoration: none;
+  color: white;
+}
+
+a.buttonecrire {
+  text-decoration: none;
+  color: white;
+}
+
+a.buttonecrire:visited {
+  text-decoration: none;
+  color: white;
+}
+
+/* ------------FOOTER/FORM-------------- */
+/* ------------FOOTER/FORM-------------- */
+/* ------------FOOTER/FORM-------------- */
+/* ------------FOOTER/FORM-------------- */
+/* ------------FOOTER/FORM-------------- */
+/* ------------FOOTER/FORM-------------- */
+
+footer {
+  background: #DD5555;
+  height: 476px;
+  font-family:'Open Sans', sans-serif;
+  color: white;
+}
+
+h4{
+  color: white;
+  font-size: 36px;
+  font-weight:600;
+  padding-top: 52px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+/* ------------formulaire-------------- */
+
+
+form {
+  font-size: 14px;
+  border: none;
+}
+
+label {
+  font-size: 14px;
+  color: white;
+}
+
+/* ------------haut formulaire-------------- */
+
+.testform-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.top-form-name input[type="text"] {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: none;
+  width: 358px;
+  height: 32px;
+  margin-right: 30px;
+  margin-top: 10px;
+
+}
+
+.top-form-mail input[type="email"] {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: none;
+  width: 358px;
+  height: 32px;
+  margin-top: 10px;
+}
+
+
+/* ------------bas formulaire-------------- */
+
+.bottom-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.bottom-form input[type="textearea"] {
+
+  border: none;
+  width: 748px;
+  height: 112px;
+  text-align: left;
+}
+
+.button-form {
+  width: 123px;
+  height: 46px;
+  border-radius: 1px;
+  border: none;
+  font-size: 18px;
+  background-color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 628px;
+}
+
+.button-form:hover {
+  background-color: grey;
+  color: white;
+}
+
+.mess{
+  margin-right: 650px;
+  margin-bottom: 10px;
+}
